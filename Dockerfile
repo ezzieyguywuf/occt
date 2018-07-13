@@ -22,9 +22,6 @@ RUN apt-get update \
     && cd / \
     && rm -rf /occt \
     && apt-get --auto-remove -y purge \
-        build-essential \
-        cmake \
-        git \
         tcl-dev \
         tk-dev \
-        libfreetype6-dev \
+        libfreetype6-dev
